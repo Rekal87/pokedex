@@ -16,7 +16,7 @@ function Card(props) {
       <tbody>
         <tr>
           <td>Attack: {pokemon.base.Attack}</td>
-          <td>Defence: {pokemon.base.Defence}</td>
+          <td>Defense: {pokemon.base.Defense}</td>
           <td>HP: {pokemon.base.HP}</td>
         </tr>
         <tr>
