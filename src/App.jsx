@@ -3,7 +3,6 @@ import "./App.css";
 import Button from "./components/Button";
 import Input from "./components/Input";
 import Card from "./features/Card";
-// import { getFormattedFileName } from "./utils/getFormattedFileName";
 import pokemon from "./utils/pokedex.json";
 
 function App() {
