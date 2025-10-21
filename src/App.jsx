@@ -8,7 +8,7 @@ function App() {
     <>
       <h1>Hello World</h1>
       <p>Lorem Ipsum...</p>
-      <div>
+      <div style={{ display: "flex", gap: "1rem", marginBottom: "1rem" }}>
         <Input />
         <Button />
       </div>
