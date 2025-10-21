@@ -1,7 +1,9 @@
-function Button() {
+function Button(props) {
   return (
     <div>
-      <button>Search</button>
+      <button type={props.type} icon={props.icon} onClick={props.onClick}>
+        {props.text}
+      </button>
     </div>
   );
 }
