@@ -1,4 +1,5 @@
 import "./App.css";
+import pokemon from "./utils/pokedex.json";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
             Pokedéx
           </h1>
           <div className="menu"></div>
-          <section></section>
+          <section>
+            <Result pokemon={pokemon} />
+          </section>
         </div>
       </div>
     </div>
